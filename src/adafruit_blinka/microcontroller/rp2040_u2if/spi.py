@@ -4,6 +4,7 @@
 """SPI Classes for RP2040s with u2if firmware"""
 from .rp2040_u2if import rp2040_u2if
 
+
 # pylint: disable=protected-access, no-self-use
 class SPI:
     """SPI Base Class for RP2040 u2if"""

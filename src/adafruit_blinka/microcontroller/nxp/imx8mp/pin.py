@@ -9,26 +9,26 @@ from adafruit_blinka.microcontroller.generic_linux.libgpiod_pin import Pin
 
 # TODO - implement UART/SPI ports
 
-# I2C0 - Do not use, connected to the internal PMIC 
+# I2C0 - Do not use, connected to the internal PMIC
 
-# I2C1 - Do not use, connected to the internal PMIC 
+# I2C1 - Do not use, connected to the internal PMIC
 
 # I2C 2 - CSI 1
 I2C2_SCL = Pin((5, 16))  # GPIO5_IO16
 I2C2_SDA = Pin((5, 17))  # GPIO5_IO17
 
 # I2C 3 - CSI 2
-I2C3_SCL = Pin((5, 18))   # GPIO5_IO18
-I2C3_SDA = Pin((5, 19))   # GPIO5_IO19
+I2C3_SCL = Pin((5, 18))  # GPIO5_IO18
+I2C3_SDA = Pin((5, 19))  # GPIO5_IO19
 
 # I2C 4 - RTC
-I2C4_SCL = Pin((5, 20))   # GPIO5_IO20
-I2C4_SDA = Pin((5, 21))   # GPIO5_IO21
+I2C4_SCL = Pin((5, 20))  # GPIO5_IO20
+I2C4_SDA = Pin((5, 21))  # GPIO5_IO21
 
 
 # I2C 6 - Aux (MUXd with UART4)
-I2C6_SCL = Pin((5, 28))   # GPIO5_IO28
-I2C6_SDA = Pin((5, 29))   # GPIO5_IO29
+I2C6_SCL = Pin((5, 28))  # GPIO5_IO28
+I2C6_SDA = Pin((5, 29))  # GPIO5_IO29
 #
 
 i2cPorts = (
@@ -38,7 +38,7 @@ i2cPorts = (
     (6, I2C6_SCL, I2C6_SDA),
 )
 
-#UART and SPI coming still to be implemented
+# UART and SPI coming still to be implemented
 
-GPIO5_IO0 = Pin((5, 0)) # GPIO5.IO[0] 
-GPIO5_IO1 = Pin((5, 1)) # gpio5.IO[1] 
+GPIO5_IO0 = Pin((5, 0))  # GPIO5.IO[0]
+GPIO5_IO1 = Pin((5, 1))  # gpio5.IO[1]
