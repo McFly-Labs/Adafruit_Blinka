@@ -9,7 +9,7 @@ from adafruit_blinka.microcontroller.nxp.imx8mp import pin
 # Board name = RPI name [= alias] = pin name
 
 # For up to documentation on the NXP NavQPlus usage, please see https://nxp.gitbook.io/8mpnavq/dev-guide/hardware-interfaces/i2c
-# I2C1 - Do not use, is configured for the internal PMIC
+
 # TODO - implement UART/SPI ports
 
 # I2C0 - Do not use, is configured for the internal PMIC

@@ -322,6 +322,9 @@ elif board_id == ap_board.AML_S905X_CC:
 elif board_id == ap_board.ROC_RK3328_CC:
     from adafruit_blinka.board.librecomputer.roc_rk3328_cc import *
 
+elif board_id == ap_board.NXP_IMX8MPLUS_SOM:
+    from adafruit_blinka.board.imx8mp_som import *
+
 elif board_id == ap_board.GENERIC_LINUX_PC:
     from adafruit_blinka.board.generic_linux_pc import *
 
