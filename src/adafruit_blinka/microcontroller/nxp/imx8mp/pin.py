@@ -27,8 +27,8 @@ I2C4_SDA = Pin((5, 21))  # GPIO5_IO21
 
 
 # I2C 6 - Aux (MUXd with UART4)
-I2C6_SCL = Pin((5, 28))  # GPIO5_IO28
-I2C6_SDA = Pin((5, 29))  # GPIO5_IO29
+I2C6_SCL = Pin((4, 28))  # GPIO5_IO28
+I2C6_SDA = Pin((4, 29))  # GPIO5_IO29
 #
 
 i2cPorts = (
