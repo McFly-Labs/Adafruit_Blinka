@@ -106,6 +106,8 @@ elif chip_id == ap_chip.H5:
     from adafruit_blinka.microcontroller.allwinner.h5 import *
 elif chip_id == ap_chip.IMX8MX:
     from adafruit_blinka.microcontroller.nxp_imx8m import *
+elif chip_id == ap_chip.IMX8MP:
+    from adafruit_blinka.microcontroller.nxp.imx8mp import *
 elif chip_id == ap_chip.IMX6ULL:
     from adafruit_blinka.microcontroller.nxp_imx6ull import *
 elif chip_id == ap_chip.HFU540:

@@ -2,7 +2,7 @@
 #
 # SPDX-License-Identifier: MIT
 # All pins are based on the default pinout used for the NavQPlus.  Ports may be enabled or disabled depending on the I/O Mux configured
-"""Pin definitions for the Coral Dev Board."""
+"""Pin definitions for NXP i.MX8MPlus System on module and the NXP NavQPlus SBC."""
 
 from adafruit_blinka.microcontroller.nxp.imx8mp import pin
 
@@ -30,7 +30,6 @@ I2C4_SDA = pin.I2C4_SDA
 
 
 # I2C 6 - Aux (MUXd with UART4) - Picked for SDA/SCL because it is accessible externally
-
 I2C6_SCL = SCL = pin.I2C6_SCL
 I2C6_SDA = SDA = pin.I2C6_SDA
 

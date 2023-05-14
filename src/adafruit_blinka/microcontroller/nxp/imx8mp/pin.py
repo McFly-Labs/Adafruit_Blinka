@@ -1,9 +1,9 @@
 # SPDX-FileCopyrightText: 2021 Melissa LeBlanc-Williams for Adafruit Industries
 #
 # SPDX-License-Identifier: MIT
-# All pins are based on the default pinout used for the NavQPlus.  
+# All pins are based on the default pinout used for the NavQPlus.
 # Ports may be enabled or disabled depending on the I/O Mux configured
-# For the pin mapping, check out the CPU datasheet 
+# For the pin mapping, check out the CPU datasheet
 # (Preview here -https://www.nxp.com/docs/en/preview/PREVIEW_IMX8MPIEC.pdf ,
 # full version requires NXP account creation)
 """NXP IMX8MP SOM pin names"""
