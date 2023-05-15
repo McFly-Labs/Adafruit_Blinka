@@ -71,7 +71,7 @@ elif chip_id == ap_chip.APQ8016:
     from adafruit_blinka.microcontroller.snapdragon.apq8016.pin import *
 elif chip_id == ap_chip.IMX8MX:
     from adafruit_blinka.microcontroller.nxp_imx8m.pin import *
-elif chip_id == ap_chip.IMX8MX:
+elif chip_id == ap_chip.IMX8MP:
     from adafruit_blinka.microcontroller.nxp.imx8mp.pin import *
 elif chip_id == ap_chip.IMX6ULL:
     from adafruit_blinka.microcontroller.nxp_imx6ull.pin import *
